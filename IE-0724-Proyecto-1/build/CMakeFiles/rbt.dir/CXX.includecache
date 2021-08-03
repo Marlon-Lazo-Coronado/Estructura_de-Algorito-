@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/rbt.h
+memory
+-
+vector
+-
+rbt_node.h
+../include/rbt_node.h
+
+../include/rbt_node.h
+memory
+-
+string
+-
+
+/home/marlon/Escritorio/Labo_deprogramaciòn/Proyecto_1_LaboProgra/IE-0724-Proyecto-1/src/rbt.cpp
+algorithm
+-
+iostream
+-
+cmath
+-
+stdexcept
+-
+rbt.h
+/home/marlon/Escritorio/Labo_deprogramaciòn/Proyecto_1_LaboProgra/IE-0724-Proyecto-1/src/rbt.h
+
